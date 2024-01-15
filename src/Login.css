@@ -1,0 +1,17 @@
+/* Login.css */
+
+@keyframes movePlaceholder {
+    from {
+      transform: translateY(0);
+      font-size: 16px;
+    }
+    to {
+      transform: translateY(-20px);
+      font-size: 12px;
+    }
+  }
+  
+  .focused::placeholder {
+    animation: movePlaceholder 0.3s ease-out forwards;
+  }
+  
